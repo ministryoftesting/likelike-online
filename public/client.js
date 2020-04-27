@@ -1813,6 +1813,8 @@ function canvasReleased() {
 
             if (longTextLink != "")
                 window.open(longTextLink, '_blank');
+                socket.disconnect();
+                location.reload(true);
 
             longText = "";
             longTextLink = "";

@@ -537,7 +537,6 @@ function validateName(nn) {
 
 }
 
-
 //parse a potential admin command
 function adminCommand(adminSocket, str) {
     try {

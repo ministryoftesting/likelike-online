@@ -43,7 +43,7 @@ module.exports.ROOMS = {
             hffff00: { cmd: "enter", room: "recordings", label: "Go to TestBash Home recordings", point: [88, 75], enterPoint: [78, 91], obstacle: false },
             hff0000: { cmd: "enter", room: "club", label: "Go to The Club", point: [115, 85], enterPoint: [10, 91], obstacle: false }
         }, sprites: [
-            { file: "harvey.png", frames: 2, frameDelay: 10, position: [90, 90], label: "Ralph", command: { cmd: "text", txt: "Woof woof!", align: "center", lines: 1, point: [90, 90] } }
+            { file: "harvey.png", frames: 2, frameDelay: 10, position: [90, 90], label: "Ralph"}
         ]
     },
 
