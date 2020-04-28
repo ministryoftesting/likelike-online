@@ -59,7 +59,7 @@ module.exports.ROOMS = {
         spawn: [14, 84, 119, 92],
         areaColors: {
             hff00ff: { cmd: "enter", room: "lobby", label: "Enter TestBash Home", point: [115, 91], enterPoint: [10, 85], obstacle: false },
-            h00ff00: { cmd: "text", txt: "Chat with others on\nThe Ministry of Testing Slack\nClick to open", align: "left", lines: 3, url: "https://ministryoftesting.slack.com/", label: "Chat on MoT Slack", point: [30, 78], obstacle: true }
+            h00ff00: { cmd: "text", txt: "Chat with others on\nThe Ministry of Testing Slack\nClick to open", align: "left", lines: 3, url: "https://ministryoftesting.slack.com/app_redirect?channel=testbashhome", label: "Chat on MoT Slack", point: [30, 78], obstacle: true }
         }
     },
 
@@ -75,7 +75,7 @@ module.exports.ROOMS = {
         spawn: [14, 84, 119, 92],
         areaColors: {
             hff00ff: { cmd: "enter", room: "lobby", label: "Enter lobby", point: [62, 91], enterPoint: [40, 74], obstacle: false },
-            h00ff00: { cmd: "text", txt: "Check out what's happening in TestBash Home right now\nClick to open", align: "left", lines: 3, url: "https://club.ministryoftesting.com/", label: "Watch TestBash Home live", point: [70, 84], obstacle: true }
+            h00ff00: { cmd: "text", txt: "Check out what's happening in TestBash Home right now\nClick to open", align: "left", lines: 3, url: "https://crowdcast.io/ministryoftesting", label: "Watch TestBash Home live", point: [70, 84], obstacle: true }
         }
     },
     
@@ -91,7 +91,7 @@ module.exports.ROOMS = {
         spawn: [14, 84, 119, 92],
         areaColors: {
             hff00ff: { cmd: "enter", room: "lobby", label: "Enter TestBash Home", point: [78, 91], enterPoint: [88, 75], obstacle: false },
-            h00ff00: { cmd: "text", txt: "Check out recordings for TestBash Home\nClick to open", align: "left", lines: 3, url: "https://ministryoftesting.slack.com/", label: "Check out TestBash Home recordings", point: [30, 78], obstacle: true }
+            h00ff00: { cmd: "text", txt: "Check out recordings for TestBash Home\nClick to open", align: "left", lines: 3, url: "https://www.ministryoftesting.com/dojo/series/testbash-home-2020", label: "Check out TestBash Home recordings", point: [30, 78], obstacle: true }
         }
     },
 
@@ -107,7 +107,7 @@ module.exports.ROOMS = {
         spawn: [14, 84, 119, 92],
         areaColors: {
             hff00ff: { cmd: "enter", room: "lobby", label: "Enter TestBash Home", point: [10, 91], enterPoint: [115, 85], obstacle: false },
-            h00ff00: { cmd: "text", txt: "Share your thoughts on\nThe Ministry of Testing Club\nClick to open", align: "left", lines: 3, url: "https://club.ministryoftesting.com/", label: "Join the Club", point: [88, 78], obstacle: true }
+            h00ff00: { cmd: "text", txt: "Share your thoughts on\nThe Ministry of Testing Club\nClick to open", align: "left", lines: 3, url: "https://club.ministryoftesting.com/c/testbash/testbash-home/", label: "Join the Club", point: [88, 78], obstacle: true }
         }
     }
     
